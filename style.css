@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    
+}
+
+
+.header{
+    height: 1.5%;
+    filter: drop-shadow(0px 0px 15px rgb(0, 0, 0));
+   
+    text-align: center;
+    background-color: #efbd09;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.header img{
+    padding: 0;
+  margin-bottom: 0;
+  margin-top: 1%;
+  overflow: hidden;
+  text-decoration: none;
+  filter: drop-shadow(1px 1.5px 4px rgb(0, 0, 0));
+}
+
+
+.topnav {
+    position: fixed;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    background-color: #1f1f1f;
+    box-shadow: 0px 10px 40px black;
+    }
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+
+    background-color: #363636;
+}
+.topnav .search{
+float: right;
+display: flex;
+margin: 0;
+height: 100%;
+}
+
+.topnav input[type=text] {
+    padding: 14px 16px;
+    font-size: 17px;
+    border: none;
+}
+
+
+#searchInput{
+    margin: 0;
+    display: flex;
+    padding: 14px;
+    height: 100%;
+    width: auto;
+    outline: none;
+    float: left;
+}
+.iii{
+    height: 100%;
+}
+label{
+    background-color: #afafaf;
+    float: right;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    padding: 4px 7px;
+    background: #ffffff;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+label:active{
+background: #ccc;
+}
+
+
+
+.topnav a:active{
+    background-color: #c0c0c0;
+    color: black;
+   
+}    
+ 
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: center;
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.1);
+}
+.column{
+    width: 16%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 6.25%;
+    background-color: white;
+    float: left;
+    padding: 15px;
+    border: solid;
+    border-radius: 15px;
+    
+    
+}
+.column img{
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+}
+.column h3{
+    padding: 10px;
+}
+button{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #414141;
+    padding-top:12px;
+    padding-bottom:12px;
+    border-radius: 15px;
+    margin-bottom: 2%;
+    margin-top: ;
+    
+}
+button{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+button:hover{
+    background-color: #2b2b2b;
+}
+.footer{
+
+   
+    margin-bottom: 0;
+    background-color: #afafaf;
+}
+#contato, footer{
+display: inline-block;
+margin: 3px;
+padding: 3px;
+}
+footer{
+top: 3px;
+display: inline-block;
+margin: 3px;
+padding: 3px;
+}
